@@ -1,0 +1,168 @@
+* {
+  font-family: 'Roboto', sans-serif;
+}
+body {
+  background-color: aliceblue;
+  margin: 0px;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 24px;
+  overflow-x: hidden;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 700;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+h1 {
+  font-size: 3em;
+}
+h2 {
+  font-size: 1.6em;
+}
+h3 {
+  font-size: 1.4em;
+  line-height: 1.4em;
+}
+
+.pull-right {
+  float: right;
+}
+
+.main-content {
+  margin-top: 10px;
+}
+
+.card-header {
+}
+
+.card-text {
+  padding: 0px !important;
+}
+
+.list-primary-text {
+  margin-right: -16px;
+  line-height: 20px;
+  width: 200px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.hidden {
+  display: none !important;
+}
+.visible {
+  display: inline-block !important;
+}
+
+/* Layouts */
+.content-wrapper {
+  margin-top: 80px;
+}
+.sidebar-component {
+  margin-bottom: 10px;
+}
+
+/* Profile */
+.profile-info-banner {
+  background-color: aqua;
+  height: 60px;
+}
+.profile-avatar {
+  position: absolute;
+  top: 20px;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100px;
+}
+.profile-content {
+  margin-top: 40px;
+  padding-bottom: 20px;
+  width: 100%;
+}
+.profile-content .profile-name {
+  line-height: 20px;
+  width: 200px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.profile-content .profile-address {
+  color: #657786;
+  width: 200px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.profile-content .profile-action {
+  width: 100%;
+  display: inline-flex;
+}
+.profile-content .profile-followers{
+  width: 50%;
+  height: auto;
+  color:#657786;
+}
+.profile-content .profile-followers{
+  font-weight: bold;
+  width: 50%;
+  height: auto;
+  color:#657786;
+}
+.profile-content .profile-followers .profile-count{
+  font-size: 1.2em;
+  color: rgb(0, 188, 212);
+}
+
+/* Trends */
+.list-trends {
+  height: 60px;
+}
+/*Post Lsit*/
+.post-header > div {
+  width: 100%;
+  padding-right: 40px !important;
+}
+.post-header .post-right-icon {
+  float: right;
+}
+.post-card {
+  width: 100%;
+}
+
+/* New Post */
+.new-post-container {
+  width: 100%;
+  min-height: 120px;
+  height: auto;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.new-post-action {
+  width: 100%;
+  display: inline-block;
+}
+
+/* Search */
+.search-content {
+  margin-top: 120px;
+}
+.search-header {
+  position: fixed;
+  top: 60px;
+  height: auto;
+  width: 100%;
+  z-index: 1100;
+}
+.search-result {
+  width: 100%;
+  min-height: 100px;
+}
